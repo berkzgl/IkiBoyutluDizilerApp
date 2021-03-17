@@ -64,9 +64,8 @@ namespace IkiBoyutluDizilerApp
                             ogrenciler[i, j] = s3;
                             break;
                        case 5:
-                            int h1 = int.Parse(ogrenciler[i, 2]);
-                            int h2 = int.Parse(ogrenciler[i, 3]);
-                            int h3 = ((h1 * 40) / 100) + ((h2 * 60) / 100);
+                            int h3 = int.Parse(ogrenciler[i, 4]);
+                           
                             if (h3>89)
                             {
                                 ogrenciler[i, j] = "AA";

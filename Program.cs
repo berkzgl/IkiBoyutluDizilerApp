@@ -59,9 +59,9 @@ namespace IkiBoyutluDizilerApp
                         case 4:
                             int s1 = int.Parse(ogrenciler[i, 2]);
                             int s2 = int.Parse(ogrenciler[i, 3]);
-                            int s3 = ((s1 * 40)/100) + ((s2 * 60)/100);
-                            string s4 = Convert.ToString(((s1 * 40) / 100) + ((s2 * 60) / 100));
-                            ogrenciler[i, j] = s4;
+                           
+                            string s3 = Convert.ToString(((s1 * 40) / 100) + ((s2 * 60) / 100));
+                            ogrenciler[i, j] = s3;
                             break;
                        case 5:
                             int h1 = int.Parse(ogrenciler[i, 2]);
